@@ -5,21 +5,24 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class FourSquare {
 	
-	// 2. Create a new Robot
+	// 2. Create a new robot
+	Robot c3po = new Robot();
 
 	void go() {
-		// 4. Make the robot move as fast as possible
+		//4. Make the robot move as fast as possible
+		c3po.setSpeed(200);
 
 		// 5. Set the pen width to 5
-
+c3po.setPenWidth(5);
 		// 6. Use a for loop to repeat steps #7 to #8, four times...
-
+for(inti=0;i<4;i++) {
+}
 			// 7. Set the pen color to random
-	
+	c3po.setRandomPenColor();
 			// 1. Call the drawSquare() method
-	
+drawSquare();
 			// 8. Turn the robot 90 degrees to the right
-
+c3po.turn(90);
 	}
 
 	
