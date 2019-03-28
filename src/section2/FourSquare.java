@@ -15,7 +15,7 @@ public class FourSquare {
 		// 5. Set the pen width to 5
 c3po.setPenWidth(5);
 		// 6. Use a for loop to repeat steps #7 to #8, four times...
-for(inti=0;i<4;i++) {
+for(int i=0;i<4;i++) {
 }
 			// 7. Set the pen color to random
 	c3po.setRandomPenColor();
